@@ -9,8 +9,8 @@ eb init -i
 ```
 >- Select the default AWS region: us-east-1 : US East (N. Virginia)
 >- Setup your credentials:
-	>- aws-access-id
-	>- aws-secret-key
+ >- aws-access-id
+ >- aws-secret-key
 >- Select an application to use: 2 (for production)
 >1. afcms-staging
 >2. afcms-dev
