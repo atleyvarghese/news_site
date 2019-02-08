@@ -16,11 +16,16 @@ eb init -i
 >2. afcms-dev
 >3. afcms
 >4. [ Create new Application ]
->##### It appears you are using Docker. Is this correct? (Y/n): Y
->##### Select a platform version: 1
->##### Do you wish to continue with CodeCommit?: n
->##### Do you want to set up SSH for your instances? (Y/n): Y
->##### Select a keypair: 1 (afcms-dev)
+
+> It appears you are using Docker. Is this correct? (Y/n): Y
+
+> Select a platform version: 1
+
+> Do you wish to continue with CodeCommit?: n
+
+> Do you want to set up SSH for your instances? (Y/n): Y
+
+> Select a keypair: 1 (afcms-dev)
 ### To Deploy your changes to the selected eb environment:
 first commit the changes to git:
 ```sh
