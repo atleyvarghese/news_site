@@ -7,20 +7,20 @@ pip install awsebcli --upgrade --user
 ```sh
 eb init -i
 ```
->- Select the default AWS region: us-east-1 : US East (N. Virginia)
->- Setup your credentials:
->-- aws-access-id
->-- aws-secret-key
->- Select an application to use: 2 (for production)
+> Select the default AWS region: us-east-1 : US East (N. Virginia)
+> Setup your credentials:
+>- aws-access-id
+>- aws-secret-key
+> Select an application to use: 2 (for production)
 >1. afcms-staging
 >2. afcms-dev
 >3. afcms
 >4. [ Create new Application ]
->- It appears you are using Docker. Is this correct? (Y/n): Y
->- Select a platform version: 1
->- Do you wish to continue with CodeCommit?: n
->- Do you want to set up SSH for your instances? (Y/n): Y
->- Select a keypair: 1 (afcms-dev)
+> It appears you are using Docker. Is this correct? (Y/n): Y
+> Select a platform version: 1
+> Do you wish to continue with CodeCommit?: n
+> Do you want to set up SSH for your instances? (Y/n): Y
+> Select a keypair: 1 (afcms-dev)
 ### To Deploy your changes to the selected eb environment:
 first commit the changes to git:
 ```sh
