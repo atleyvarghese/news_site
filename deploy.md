@@ -11,7 +11,7 @@ eb init -i
 > Setup your credentials:
  >- aws-access-id
  >- aws-secret-key
-> Select an application to use: 2 (for production)
+>- Select an application to use: 2 (for production)
 >1. afcms-staging
 >2. afcms-dev
 >3. afcms
