@@ -20,7 +20,7 @@
 > Select a keypair: 1 (afcms-dev)
 ### To Deploy your changes to the selected eb environment:
 first commit the changes to git:
-```git commit -m "commit message"```
+```sh git commit -m "commit message"```
 Then run the following command to deploy the changes to elastic beanstalk from the project folder:
 ```eb deploy```
 Check the current beanstalk environment and application:
